@@ -1,0 +1,969 @@
+@font-face {
+    font-family: BrandonGrotesque;
+    src: url(fonts/brandon_bld.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Bold.ttf);
+    font-weight: bold;
+}
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+body h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+body h2 span{
+    color: #19c3c1;
+}
+
+body .underHeader{
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+
+body p{
+    font-size: 24px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #19c3c1;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .navbar-brand{
+    margin: 21px 20px 17px 30px;
+}
+
+header .menuButton{
+    width: 20px;
+}
+
+header .navWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 30px;
+}
+
+nav a{
+    margin-right: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+#contactMe{
+    display: flex;
+    background-color: #fbfbf7;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+#contactMe h2{
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #0f1d3e;
+    text-align: right;
+    margin-bottom: 47px;
+    margin-top: 63px;
+    margin-left: 20px;
+}
+
+#contactMe h2 span{
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #0f1d3e;
+}
+
+#contactMe .sendButton{
+    display: flex;
+    width: 227px;
+    height: 60px;
+    background-color: #6dc0df;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactMe a{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #fbfbf7;
+}
+
+#contactMe p{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.09;
+    letter-spacing: 0.5px;
+    text-align: right;
+    color: #0f1d3e;
+    margin-right: 60px;
+}
+
+#contactMe .adv{
+    margin-top: 27px;
+}
+
+#contactMe .pol{
+    margin-bottom: 52px;
+    font-weight: 500;
+}
+
+#contactMe .contactImg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#contactMe img{
+    margin-left: -30px;
+}
+
+#whyMe{
+    background-color: #0f1d3e;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#whyMe .right{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#whyMe .left{
+    margin-left: 20px;
+}
+
+#whyMe .left h2{
+    letter-spacing: 1px;
+    text-align: right;
+    color: #fbfbf7;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#whyMe .left p{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #fbfbf7;
+    margin: 0;
+}
+
+#whyMe .right p{
+    line-height: 1.42;
+    text-align: justify;
+    color: #fbfbf7;
+    padding-right: 60px;
+}
+
+#clients{
+    background-color: #fbfbf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clients h2{
+    letter-spacing: 0.8px;
+    color: #0f1d3e;
+    margin-top: 60px;
+}
+
+#clients .underHeader{
+    letter-spacing: 1px;
+    color: #0f1d3e;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+#clients .plate p{
+    font-weight: 500;
+    line-height: 1.58;
+    letter-spacing: 0.2px;
+    color: #0f1d3e;
+    margin-left: 15px;
+}
+
+#clients .plate a{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #0f1d3e;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#clients .plate a img{
+    position: relative;
+    bottom: -6px;
+    margin-left: 6px;
+}
+
+#clients .flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#clients .picWorld{
+    margin-top: 24px;
+}
+
+#clients .flexRow .plate{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#specialise{
+    background-color: #0f1d3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#specialise h2{
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-top: 36px;
+}
+
+#specialise .underHeader{
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 72px;
+}
+
+#specialise .flexCol{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbf7;
+    width: 100%;
+}
+
+#specialise .flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#specialise .flexRow p{
+    font-weight: 500;
+    line-height: 1.58;
+    letter-spacing: 0.2px;
+    color: #0f1d3e;
+}
+
+#specialise .flexRow a{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #0f1d3e;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#specialise .flexRow a img{
+    position: relative;
+    bottom: -6px;
+    margin-left: 6px;
+}
+
+#specialise .plate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -36px;
+    width: 30%;
+    height: 200px;
+    background-color: #fbfbf7;
+    border: solid 1px #0f1d3e;
+}
+
+#specialise .pic-civil{
+    background-image: url('img/pic-civil.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+#specialise .pic-admin{
+    background-image: url('img/pic-admin.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+#specialise .pic-economic{
+    background-image: url('img/pic-economic.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+#specialise .bluePlate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 151.7px;
+    background-color: #6dc0df;
+    margin-top: 31px;
+    margin-bottom: 147px;
+}
+
+#specialise .bluePlate p{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.09;
+    letter-spacing: 0.3px;
+    color: #0f1d3e;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#specialise .bluePlate a{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #fbfbf7;
+    margin-left: 15px;
+    margin-bottom: 19px;
+}
+
+#specialise .bluePlate a img{
+    position: relative;
+    bottom: -6px;
+    margin-left: 6px;
+}
+
+#customer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #0f1d3e;
+}
+
+#customer img{
+    max-width: 33%;
+    margin: 34px auto;
+}
+
+#rewievs{
+    background-color: #fbfbf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rewievs h2{
+    letter-spacing: 0.8px;
+    color: #0f1d3e;
+    margin-top: 72px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+#rewievs .underHeader{
+    letter-spacing: 1px;
+    color: #0f1d3e;
+    z-index: 2;
+    position: relative;
+}
+
+#rewievs .top-line{
+    position: relative;
+    top: -87px;
+    z-index: 1;
+}
+
+#rewievs .slickCarouselWrapper{
+    width: 67%;
+}
+
+#rewievs .flexWrapperRev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rewievs .flexWrapperRev .person{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rewievs .flexWrapperRev h3{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #0f1d3e;
+    text-align: center;
+    margin-top: 13px;
+}
+
+#rewievs .flexWrapperRev p{
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #0f1d3e;
+}
+
+#rewievs .rev-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#rewievs .rev-photo{
+    width: 170px;
+    border-radius: 50%;
+}
+
+#rewievs .carouselImg{
+    width: 202px;
+    margin-bottom: 140px;
+}
+
+#rewievs .rev-container p{
+    line-height: 1.42;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #0f1d3e;
+    position: relative;
+    width: 95%;
+
+}
+
+#rewievs .rev-container span{
+    opacity: 0.15;
+    font-family: BrandonGrotesque;
+    font-size: 300px;
+    font-weight: bold;
+    letter-spacing: 7.2px;
+    text-align: left;
+    color: #19c3c1;
+    z-index: -1;
+    position: absolute;
+}
+
+#rewievs .rev-container .quotesUp{
+    left: 0;
+    top: -119px;
+}
+
+#rewievs .rev-container .quotesDown{
+    right: 0;
+    bottom: -260px;
+}
+
+#protect{
+    display: flex;
+    background-color: #0f1d3e;
+}
+
+#protect .protectText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#protect .protectText h2{
+    letter-spacing: 0.8px;
+    color: #fbfbf7;
+    margin-top: 112px;
+}
+
+#protect .protectText .underHeader{
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 55px;
+}
+
+#protect .protectText p{
+    line-height: 1.42;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #fbfbf7;
+    margin: 0 70px 70px 70px;
+}
+
+#protect .protectImg{
+    width: 50%;
+    background-image: url("img/negotiation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#aboutMe{
+    display: flex;
+    background-color: #fbfbf7;
+}
+
+#aboutMe .aboutMeImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#aboutMe .flipImg{
+        -moz-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        margin: 0 auto;
+}
+
+#aboutMe .aboutMeText{
+    margin-right: 73px;
+    width: 50%;
+}
+
+#aboutMe .aboutMeText h2{
+    letter-spacing: 0.8px;
+    color: #0f1d3e;
+    margin-top: 80px;
+}
+
+#aboutMe .aboutMeText .underHeader{
+    font-size: 32px;
+    line-height: 0.88;
+    letter-spacing: 1.3px;
+    color: #0f1d3e;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#aboutMe .aboutMeText p{
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #0f1d3e;
+    margin-bottom: 49px;
+}
+
+#aboutMe .aboutMeText a{
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    float: right;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+#aboutMe .aboutMeText a div{
+    width: 239.1px;
+    height: 44.6px;
+    background-color: #6dc0df;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#aboutMe .aboutMeText a div img{
+    margin: auto 20px;
+}
+
+#aboutMeTitle{
+    background-color: #0f1d3e;
+}
+
+#aboutMeTitle h2{
+    letter-spacing: 0.8px;
+    color: #fbfbf7;
+    padding-top: 63px;
+}
+
+#aboutMeTitle .underHeader{
+    line-height: 0.8;
+    letter-spacing: 1.5px;
+    color: #fbfbf7;
+    padding-bottom: 64px;
+}
+
+#aboutMeBody{
+    display: flex;
+    background-color: #fbfbf7;
+}
+
+#aboutMeBody div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMeBody div p{
+    margin: 50px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #0f1d3e;
+}
+
+#aboutMeBody div img{
+    width: 88%;
+    height: 88%;
+    margin: 50px;
+}
+
+#sendMe{
+    background-image: linear-gradient(to bottom, #6dc0df, rgba(153, 153, 153, 0));
+    width: 100%;
+    height: 726px;
+    position: relative;
+}
+
+#sendMe::after {
+  content: "";
+  background: url('img/sofia.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#sendMe .sendMeWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    height: 100%;
+}
+
+#sendMe .sendMeForm{
+    width: 600px;
+    height: 440px;
+    background-color: #ffffff;
+    border: solid 1px #0f1d3e;
+}
+
+#sendMe .sendMeForm form{
+    margin: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sendMe .sendMeForm h2{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #0f1d3e;
+    margin-top: 32px;
+}
+
+#sendMe .sendMeForm input{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    line-height: 1.42;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #0f1d3e;
+    width: 248px;
+}
+
+#sendMe .sendMeForm textarea{
+    width: 534px;
+    height: 114px;
+    border: solid 1px #0f1d3e;font-size: 24px;
+    line-height: 1.42;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #0f1d3e;
+    resize: none;
+    margin-top: 32px;
+}
+
+#sendMe .sendMeForm a{
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    float: right;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+#sendMe .sendMeForm a div{
+    width: 239.1px;
+    height: 44.6px;
+    background-color: #6dc0df;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#sendMe .sendMeForm a div img{
+    margin: auto 20px;
+}
+
+#sendMe .sendMeContacts{
+    width: 426px;
+    height: 440px;
+    background-color: #0f1d3e;
+}
+
+#sendMe .sendMeContacts .sendProf{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.09;
+    letter-spacing: 0.5px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 28px;
+    margin-right: 26.5px;
+    text-align: right;
+}
+
+#sendMe .sendMeContacts .sendName{
+    font-size: 35px;
+    line-height: 1.09;
+    letter-spacing: 0.5px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right: 26.5px;
+}
+
+#sendMe .sendMeContacts .sendMail{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 0.97;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #fbfbf7;
+    margin-bottom: 56px;
+    margin-top: 50px;
+    display: inherit;
+}
+
+#sendMe .sendMeContacts .sendTel{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 0.97;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #fbfbf7;
+    margin-bottom: 20px;
+    display: inherit;
+}
+
+#itCompanies{
+    width: 100%;
+    background-color: #0f1d3e;
+}
+
+#itCompanies h2{
+    line-height: 1.09;
+    letter-spacing: 0.3px;
+    color: #fbfbf7;
+    padding-top: 55px;
+}
+
+#itCompanies .underHeader{
+    letter-spacing: 1px;
+    color: #fbfbf7;
+    padding-bottom: 60px;
+}
+
+#splata{
+    display: flex;
+    background-color: #fbfbf7;
+}
+
+#splata .left{
+    width: 50%;
+    margin: 50px;
+    margin-right: 50px;
+}
+
+#splata .left h2{
+    line-height: 1.09;
+    letter-spacing: 0.3px;
+    color: #0f1d3e;
+}
+
+#splata .left .underHeader{
+    letter-spacing: 1px;
+    color: #0f1d3e;
+    margin-top: 0;
+}
+
+#splata .left p{
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: justify;
+    color: #0f1d3e;
+    margin-top: 30px;
+}
+
+#splata .right{
+    width: 50%;
+    margin: 50px;
+    margin-left: 25px;
+}
+
+#splata .right h2{
+    line-height: 1.09;
+    letter-spacing: 0.3px;
+    color: #0f1d3e;
+}
+
+#splata .right .underHeader{
+    letter-spacing: 1px;
+    color: #0f1d3e;
+}
+
+#splata .right .accordionStyle{
+    position: relative;
+    margin: 30px;
+}
+
+#splata .right h3{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fbfbf7;
+    background-color: #0f1d3e;
+    border: solid 1px #979797;
+}
+
+#splata .right .accNor{
+    font-size: 24px;
+    line-height: 1.42;
+    color: #0f1d3e;
+}
+
+#splata .right .accBig{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #0f1d3e;
+}
+
+#splata .right .accordion-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+#splata .right .set{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#splata .right .set a{
+    background-color: #0f1d3e;
+    border: solid 1px #979797;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fbfbf7;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+#splata .right .set a img{
+    width: 35px;
+    margin-right: 15px;
+}
+
+#splata .right .content{
+    position:relative;
+    width: 100%;
+    height: auto;
+    display:none;
+}
+
+#splata .right .content p{
+    padding: 7px 10px;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbf7;
+}
+
+footer p{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #0f1d3e;
+    margin-bottom: 50px;
+    margin-top: 28px;
+    white-space: pre;
+}
+
+footer p a{
+    color: black;
+}
