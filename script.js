@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
     $(".menuButton").on('click', function(){
-        if($(window).width() < 1024) {
+        if($(window).width() <= 425) {
             if ($('#nav').css('display') == 'none'){
                 $("#nav").insertAfter($("header"));
                 $("#nav").css({
@@ -19,6 +19,9 @@ $(document).ready(function(){
                     "background-color": "#19c3c1",
                     "margin": "0",
                     "padding-bottom": "20px"
+                });
+                $('.navLinks').css({
+                    "font-size": "6.5vw"
                 })
             } else {
                 $("#nav").css({
@@ -27,26 +30,13 @@ $(document).ready(function(){
             }
         return false;
         } else {
-        $(".navLinks").toggle();
+        $("#nav").toggle();
         return false
         }
     });
 
 
-    // $(".grayDetails")
-    //     .on("mouseenter", function(){
-    //         $("#clients .plate").css({
-    //             "background-color":"lightgray"
-    //         })
-    //         $("#clients .plate .picWorld").css({
-    //             "background-color": "#fbfbf7"
-    //         })
-    //     .on("mouseleave", function(){
-    //         $("#clients .plate").css({
-    //             "background-color": "#fbfbf7"
-    //         })
-    //     })
-    // });
+   $('.slick-dots').insertAfter('.carouselImg');
 
 
     $("#defaultValue").addClass("active");

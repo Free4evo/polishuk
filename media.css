@@ -1,9 +1,15 @@
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 425px){
 
     header .navbar-brand img{
-        width: 100%;
-
+        width: 35vw;
+        height: 13.88vw;
         align-self: center;
+        margin: 0;
+        margin-left: 3.6vw;
+    }
+
+    header .navWrapper .menuButton{
+        width: 5.55vw;
     }
 
     header nav{
@@ -21,18 +27,17 @@
     }
 
     #contactMe h2{
-        font-size: 35px;
+        font-size: 9.7vw;
         font-weight: 300;
         letter-spacing: 0.3px;
         color: #0f1d3e;
         margin: 0;
-        margin-right: 22px;
+        margin-right: 6vw;
     }
 
     #contactMe h2 span{
-        font-size: 45px;
+        font-size: 12.5vw;
         font-weight: bold;
-        line-height: 2.4;
         color: #0f1d3e;
     }
 
@@ -41,17 +46,18 @@
     }
 
     #contactMe .adv{
-        font-size: 16px;
+        font-size: 4.44vw;
         font-weight: 300;
         line-height: 1.56;
         letter-spacing: 0.2px;
         text-align: right;
         color: #0f1d3e;
         width: 50%;
+        margin-top: 12.77vw;
     }
 
     #contactMe .pol{
-        font-size: 16px;
+        font-size: 4.44vw;
         line-height: 2.38;
         letter-spacing: 0.2px;
         text-align: right;
@@ -65,7 +71,7 @@
 
     #contactMe img{
         width: 60%;
-        margin-top: -160px;
+        margin-top: -32vw;
     }
 
     #whyMe{
@@ -79,19 +85,21 @@
     }
 
     #whyMe .left h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.4px;
         text-align: center;
         color: #fbfbf7;
+        margin-top: 7.22vw;
     }
 
     #whyMe .left p{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.5px;
         text-align: center;
         color: #fbfbf7;
+        margin-top: 5vw;
     }
 
     #whyMe .right{
@@ -100,31 +108,36 @@
     }
 
     #whyMe .right p{
-        font-size: 16px;
+        font-size: 4.44vw;
         text-align: justify;
         color: #fbfbf7;
-        padding: 15px;
+        margin-top: 3.34vw;
+        padding: 4.16vw;
     }
 
     #clients h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.4px;
         text-align: center;
         color: #0f1d3e;
+        margin-top: 8.33vw;
     }
 
     #clients .underHeader{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 300;
         letter-spacing: 0.5px;
         text-align: center;
         color: #0f1d3e;
+        margin-top: 8.33vw;
+        margin-bottom: 14.16vw;
     }
 
     #clients .flexRow{
         flex-direction: column;
-        margin-bottom: 0;
+        margin: 0;
+        width: 100%;
     }
 
     #clients .flexRow .plate{
@@ -133,39 +146,112 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+
+    #clients .flexRow .plate .pic100{
+        width: 100%;
+        height: 79vw;
+    }
+
+    #clients .flexRow .plate .picWorld{
+        width: 88%;
+        height: 70vw;
+    }
+
+    #clients .flexRow .plate p{
+        font-size: 6.66vw;
+        margin-left: 4.16vw;
+    }
+
+    #clients .flexRow .plate a{
+        font-size: 3.88vw;
+        margin: 4.16vw;
+    }
+
+    #clients .flexRow .plate a img{
+        width: 6.66vw;
+        bottom: -1.4vw;
     }
 
     #specialise h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.5px;
         color: #ffffff;
+        margin-top: 8.33vw;
     }
 
     #specialise .underHeader{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 300;
         letter-spacing: 0.5px;
         text-align: center;
         color: #ffffff;
+        margin: 5.55vw 5.83vw 8.33vw 5.83vw;
     }
 
 
     #specialise .flexRow{
         flex-direction: column;
+        margin: 0;
+        width: 100%;
     }
 
     #specialise .flexRow .plate{
         width: 100%;
         border: none;
         border-bottom: 1px solid black;
-         margin-top: 0px;
+        margin-top: 0px;
+        height: 55.6vw;
+    }
+
+    #specialise .flexRow .plate p{
+        font-size: 6.66vw;
+        margin-left: 4.16vw;
+    }
+
+    #specialise .flexRow .plate a{
+        font-size: 3.9vw;
+        margin: 4.16vw;
+    }
+
+    #specialise .flexRow .plate a img{
+        width: 6.66vw;
+        bottom: -1.4vw;
+    }
+
+    #specialise .pic-civil{
+        background-size: 80vw 42vw;
+    }
+
+    #specialise .pic-admin{
+        background-size: 69vw 43vw;
+        background-position-y: bottom;
+    }
+
+    #specialise .pic-economic{
+        background-size: 73vw 54vw;
     }
 
     #specialise .flexRow .bluePlate{
         width: 100%;
         margin: 0;
+        height: 42vw;
+    }
+
+    #specialise .flexRow .bluePlate p{
+        font-size: 9.7vw;
+        margin-left: 4.16vw;
+    }
+
+    #specialise .flexRow .bluePlate a{
+        font-size: 3.9vw;
+        margin: 4.16vw;
+    }
+
+    #specialise .flexRow .bluePlate a img{
+        width: 6.66vw;
+        bottom: -1.4vw;
     }
 
     #customer{
@@ -193,12 +279,12 @@
     }
 
     #aboutMeBody div p{
-        font-size: 18px;
-        margin: 10px;
+        font-size: 5vw;
+        margin: 2.8vw;
     }
 
     #aboutMeBody div img{
-        margin: 10px;
+        margin: 2.8vw;
     }
 
     #sendMe{
@@ -214,68 +300,103 @@
     #sendMe .sendMeContacts{
         height: 100%;
         width: 100%;
+        padding-right: 7.8vw;
     }
 
     #sendMe .sendMeContacts .sendProf{
-        font-size: 20px;
+        font-size: 5.5vw;
         font-weight: 300;
         letter-spacing: 0.3px;
         text-align: right;
         color: #ffffff;
+        margin-top: 8.3vw;
+        margin-right: 0;
     }
 
     #sendMe .sendMeContacts .sendName{
-        font-size: 20px;
+        font-size: 5.5vw;
         line-height: 1.9;
         letter-spacing: 0.3px;
         text-align: right;
         color: #ffffff;
+        margin-top: 4.1vw;
+        margin-right: 0;
     }
 
     #sendMe .sendMeContacts .sendMail{
-        font-size: 20px;
+        font-size: 5.5vw;
         font-weight: 300;
         letter-spacing: 0.5px;
         text-align: right;
         color: #fbfbf7;
-        margin: 15px 20px;
+        margin-top: 4.2vw;
+        margin-bottom: 4.2vw;
     }
 
     #sendMe .sendMeContacts .sendTel{
-        font-size: 20px;
+        font-size: 5.5vw;
         font-weight: 300;
         letter-spacing: 0.5px;
         text-align: right;
         color: #fbfbf7;
-        margin-right: 20px;
+        margin-bottom: 4.2vw;
     }
 
     #sendMe .sendMeForm{
+        background-color: #fbfbf7;
         width: 100%;
         height: 100%;
         border: none;
     }
 
     #sendMe .sendMeForm h2{
-        font-size: 20px;
+        font-size: 5.5vw;
         font-weight: 300;
         letter-spacing: 0.3px;
         color: #0f1d3e;
+        margin-top: 8.3vw;
     }
 
     #sendMe .sendMeForm form{
-        margin: 10px;
+        margin: 2.8vw;
     }
 
+    #sendMe .sendMeForm form input{
+        width: 100%;
+        font-size: 6.66vw;
+        color: #0f1d3e;
+        background-color: #fbfbf7;
+    }
+
+    #sendMe .sendMeForm form textarea{
+        width: 100%;
+        font-size: 6.66vw;
+        color: #0f1d3e;
+        height: 32vw;
+        background-color: #fbfbf7;
+    }
+
+    #sendMe .sendMeForm a div{
+        width: 50vw;
+        font-size: 5vw;
+        height: 9vw;
+    }
+
+    #sendMe .sendMeForm a div img{
+        width: 6.66vw;
+        bottom: -1.4vw;
+    }
+
+
     #itCompanies h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.5px;
         color: #ffffff;
     }
 
     #itCompanies .underHeader{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 300;
         letter-spacing: 0.5px;
         text-align: center;
@@ -292,19 +413,19 @@
     }
 
     #splata .left h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.4px;
     }
 
     #splata .left .underHeader{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 300;
     }
 
     #splata .left p{
-        font-size: 16px;
-        margin: 10px;
+        font-size: 4.5vw;
+        margin: 2.8vw;
     }
 
     #splata .right{
@@ -313,32 +434,32 @@
     }
 
     #splata .right h2{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.4px;
-        margin-top: 20px;
+        margin-top: 5.5vw;
     }
 
     #splata .right .underHeader{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 300;
     }
 
     #splata .right .accNor, #splata .right .accBig{
-        font-size: 16px;
-        margin: 10px;
+        font-size: 4.4vw;
+        margin: 2.8vw;
     }
 
     #splata .right .set a{
-        font-size: 18px;
+        font-size: 5vw;
         font-weight: 500;
         letter-spacing: 0.4px;
         width: auto;
-        height: 70px;
+        height: 19.5vw;
     }
 
     #splata .right .set a img{
-        width: 25px;
+        width: 7vw;
     }
 
     footer{
@@ -346,7 +467,8 @@
     }
 
     footer p{
-        font-size: 16px;
+        width: 52%;
+        font-size: 4.4vw;
         font-weight: 300;
         letter-spacing: 0.4px;
         text-align: center;
