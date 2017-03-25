@@ -21,8 +21,13 @@
         width: 100%;
     }
 
+    header{
+        height: 13vw;
+    }
+
     #contactMe{
         flex-direction: column;
+        margin-top: 13vw;
         padding: 0;
     }
 
@@ -270,6 +275,10 @@
         display: none;
     }
 
+    #aboutMeTitle{
+        margin-top: 13vw;
+    }
+
     #aboutMeBody{
         flex-direction: column-reverse;
     }
@@ -300,7 +309,6 @@
     #sendMe .sendMeContacts{
         height: 100%;
         width: 100%;
-        padding-right: 7.8vw;
     }
 
     #sendMe .sendMeContacts .sendProf{
@@ -310,7 +318,7 @@
         text-align: right;
         color: #ffffff;
         margin-top: 8.3vw;
-        margin-right: 0;
+        margin-right: 7.8vw;
     }
 
     #sendMe .sendMeContacts .sendName{
@@ -320,7 +328,7 @@
         text-align: right;
         color: #ffffff;
         margin-top: 4.1vw;
-        margin-right: 0;
+        margin-right: 7.8vw;
     }
 
     #sendMe .sendMeContacts .sendMail{
@@ -331,6 +339,7 @@
         color: #fbfbf7;
         margin-top: 4.2vw;
         margin-bottom: 4.2vw;
+        margin-right: 7.8vw;
     }
 
     #sendMe .sendMeContacts .sendTel{
@@ -340,6 +349,7 @@
         text-align: right;
         color: #fbfbf7;
         margin-bottom: 4.2vw;
+        margin-right: 7.8vw;
     }
 
     #sendMe .sendMeForm{
@@ -393,6 +403,7 @@
         font-weight: 500;
         letter-spacing: 0.5px;
         color: #ffffff;
+        margin-top: 13vw;
     }
 
     #itCompanies .underHeader{
@@ -474,5 +485,10 @@
         text-align: center;
         color: #0f1d3e;
         white-space: nowrap;
+    }
+
+    footer img{
+        width: 7vw;
+        height: 7vw;
     }
 }

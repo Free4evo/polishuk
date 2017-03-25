@@ -13,6 +13,8 @@ $(document).ready(function(){
             if ($('#nav').css('display') == 'none'){
                 $("#nav").insertAfter($("header"));
                 $("#nav").css({
+                    "z-index": "500",
+                    "position": "fixed",
                     "width": "100%",
                     "display": "flex",
                     "flex-direction": "column",
@@ -64,5 +66,17 @@ $(document).ready(function(){
         top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
-});
 
+    //autosize textarea
+    autosize($('textarea'));
+
+    //admin buttons
+    $('#admin .button1').on('click', function(){
+        $('.podraz:first').clone().insertAfter('.podraz:last');
+    })
+
+    $('#admin .button2').on('click', function(){
+        $('.raz:first').clone().insertAfter('.podraz:last');
+        $('.podraz:first').clone().insertAfter('.raz:last');
+    })
+ });
